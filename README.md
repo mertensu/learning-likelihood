@@ -1,4 +1,4 @@
-# Learning the Likelihood: Using DeepInference for the Estimation of Diffusion-Model and Lévy Flight Parameters
+# Learning the Likelihood: Using DeepInference for the Estimation of Diffusion-Model and Lévy Flight Parameters (Voss, Mertens, Radev)
 This repository contains the Jupyter notebooks for training of the diffusion and lévy flight model on both clean and contaminated data. There are two$
 additional folders named _img_ and _model\_checkpoints_ with the latter containing a pretrained network.
 

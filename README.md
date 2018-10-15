@@ -8,12 +8,39 @@ to be inserted...
 
 Please create a data folder at the level of _img_ and _model\_checkpoints_ with the following structure:
 
-data
-   diff
-      clean
-      contaminated
-      diff_test_*.csv	
-   levy
-      clean
-      contaminated
-      levy_test_*.csv
+```bash
+├── diff
+│   ├── clean
+│   │   ├── diff_ref_0_1.csv
+│   │   ├── diff_ref_0_2.csv
+│   │   ├── diff_ref_0_3.csv
+│   │   ├── diff_ref_0_4.csv
+│   │   └── diff_ref_0_5.csv
+│   ├── contaminated
+│   │   ├── diff_ref_100_1.csv
+│   │   ├── diff_ref_100_2.csv
+│   │   ├── diff_ref_100_3.csv
+│   │   ├── diff_ref_100_4.csv
+│   │   └── diff_ref_100_5.csv
+│   ├── diff_test_0.csv
+│   ├── diff_test_100.csv
+│   ├── diff_test_sl_0.csv
+│   └── diff_test_sl_100.csv
+└── levy
+    ├── clean
+    │   ├── levy_ref_0_1.csv
+    │   ├── levy_ref_0_2.csv
+    │   ├── levy_ref_0_3.csv
+    │   ├── levy_ref_0_4.csv
+    │   └── levy_ref_0_5.csv
+    ├── contaminated
+    │   ├── levy_ref_100_1.csv
+    │   ├── levy_ref_100_2.csv
+    │   ├── levy_ref_100_3.csv
+    │   ├── levy_ref_100_4.csv
+    │   └── levy_ref_100_5.csv
+    ├── levy_test_0.csv
+    ├── levy_test_100.csv
+    ├── levy_test_sl_0.csv
+    └── levy_test_sl_100.csv
+```
